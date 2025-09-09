@@ -24,6 +24,22 @@
             }
         }
     }
+    
+    &--white {
+        color: var(--white-color);
+
+        &:active,
+        &.isActive {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        @media (hover: hover) {
+
+            &:hover {
+                color: rgba(255, 255, 255, 0.7);
+            }
+        }
+    }
 
     @media (hover: hover) {
 

@@ -9,9 +9,8 @@ mixin Registration()
         .o-registration__items
             +Question("q1", "Планируете ли быть на свадьбе?", "обязательно буду", "к сожалению, не смогу присутствовать", "option1")
             +Question("q2", "Необходимо ли место, где остановиться?", "да", "нет", "option1")
-            //+Question("q3", "Будут ли с вами дети?", "да", "нет", "option2", true)
 
-            .m-question.js-question
+            .m-question.js-question(data-has-input="true")
                 p.m-question__text.js-question__text Будут ли с вами дети?
                 .m-question__items
                     .m-question__wrap
@@ -26,6 +25,8 @@ mixin Registration()
                         input(type="radio" name="q3" value="нет" checked)
                         span.m-question__custom-radio
                         | нет
+
+            +Question("q4", "Будет ли у вас участие?", "да", "нет", "option1")
 
         .o-registration__btn
             +Btn(type="submit") Отправить

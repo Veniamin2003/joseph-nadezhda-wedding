@@ -35,7 +35,7 @@ body {
 	}
 
 	::selection {
-		background-color: var(--primary-color);
+		background-color: var(--basic-color);
 		color: #FFFFFF;
 	}
 }
@@ -74,7 +74,7 @@ body {
 	font-size: var(--basicTextSize);
 	line-height: var(--basicLineHeight);
 	font-weight: 400;
-	color: var(--primary-color);
+	color: var(--basic-color);
 	min-height: 100vh;
 	background: var(--white-color);
 	min-width: 375px;
@@ -192,6 +192,7 @@ select {
 @import '../components/Atoms/Buttons/Btn/Btn';
 @import '../components/Atoms/Links/Link/Link';
 @import '../components/Atoms/Fields/Input/Input';
+@import '../components/Atoms/Label/Label';
 
 @import '../components/Wrappers/Container/Container';
 @import '../components/Wrappers/Blocks/Blocks';

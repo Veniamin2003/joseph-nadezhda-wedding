@@ -1,6 +1,6 @@
 .o-dress {
     position: relative;
-    padding: 40px 0;
+    padding: 0 0 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,9 +10,9 @@
         position: absolute;
         content: "";
         bottom: 0;
-        width: 276px;
+        width: 266px;
         height: 1px;
-        background-color: var(--primary-color);
+        background-color: var(--basic-color);
     }
 
     &__text {
@@ -21,7 +21,7 @@
         flex-direction: column;
         align-items: center;
         gap: 15px;
-        color: var(--primary-color)
+        color: var(--basic-color)
     }
     &__desc {
         font-weight: 300;
@@ -39,21 +39,16 @@
         border-top-left-radius: 100px;
 
         &:nth-child(1) {
-            border: 1px solid var(--primary-bd-color);
-            background: rgba(255, 255, 255, 0.66);
+            background: #E5E3E6;
         }
         &:nth-child(2) {
-            border: 1px solid var(--primary-bd-color);
-            background: #FBF5EB;
+            background: #C4BFAA;
         }
         &:nth-child(3) {
-            background: #F2E9D8;
+            background: #6A6A47;
         }
         &:nth-child(4) {
-            background: #D6CCC2;
-        }
-        &:nth-child(5) {
-            background: #B5A291;
+            background: #D6BDAE;
         }
     }
 }

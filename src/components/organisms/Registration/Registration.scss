@@ -1,6 +1,6 @@
 .o-registration {
-    max-width: 276px;
-    margin: 40px auto;
+    max-width: 285px;
+    margin: 0 auto;
 
     &__top {
         display: flex;
@@ -14,7 +14,7 @@
         flex-direction: column;
         gap: 15px;
         align-items: center;
-        color: var(--primary-color);
+        color: var(--basic-color);
     }
 
     &__desc {

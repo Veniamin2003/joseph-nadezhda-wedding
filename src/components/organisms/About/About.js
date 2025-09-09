@@ -4,7 +4,7 @@ import ScrollTrigger from "gsap/ScrollTrigger.js";
 export const TimeCounter = () => {
     function getTimeLeft() {
         // Целевая дата в Московском времени (UTC+3)
-        const targetDate = new Date(Date.UTC(2025, 9, 17, 0, 0, 0)); // Май - 4 (нумерация месяцев с 0)
+        const targetDate = new Date(Date.UTC(2025, 9, 4, 0, 0, 0)); // Октябрь - 4 (нумерация месяцев с 0)
 
         // Получаем текущее время в Московском часовом поясе
         const now = new Date();

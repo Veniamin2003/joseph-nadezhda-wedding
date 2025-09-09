@@ -7,13 +7,13 @@
     line-height: normal;
 
     &__text {
-        font-size: 16px;
-        color: var(--primary-color);
+        font-size: 18px;
+        color: var(--basic-color);
     }
     &__items {
         display: flex;
         flex-direction: column;
-        gap: 15px;
+        gap: 10px;
     }
     &__wrap {
         display: flex;
@@ -25,8 +25,8 @@
         display: flex;
         align-items: center;
         cursor: pointer;
-        font-size: 16px;
-        color: var(--primary-color);
+        font-size: 14px;
+        color: var(--basic-color);
         -webkit-tap-highlight-color: transparent;
     }
     &__custom {
@@ -36,7 +36,7 @@
             border: 1px solid var(--primary-lighter-color);
             border-radius: 50%;
             display: inline-block;
-            margin-right: 18px;
+            margin-right: 14px;
             position: relative;
         }
     }
