@@ -1,7 +1,7 @@
 .m-question {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -13,7 +13,7 @@
     &__items {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 15px;
     }
     &__wrap {
         display: flex;
@@ -25,7 +25,7 @@
         display: flex;
         align-items: center;
         cursor: pointer;
-        font-size: 14px;
+        font-size: 16px;
         color: var(--basic-color);
         -webkit-tap-highlight-color: transparent;
     }

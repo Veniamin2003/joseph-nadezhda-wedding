@@ -1,10 +1,20 @@
 .o-fscreen {
+    height: 520px;
+    width: 100%;
+    max-width: 400px;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    height: 520px;
+    margin: 0 auto;
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+    
+    @media(max-width: 1023px) {
+        max-width: 100%;
+        border-radius: 0;
+    }
 
     &__text {
         position: relative;
@@ -15,17 +25,13 @@
         color: var(--white-bg-color);
         align-items: center;
     }
+    
     &__title,
     &__date {
         font-family: var(--additionalFont), sans-serif;
         line-height: normal;
     }
-    //&__title {
-    //    font-size: 48px;
-    //}
-    //&__date {
-    //    font-size: 36px;
-    //}
+    
     &__picture {
         position: absolute;
         inset: 0;
@@ -36,6 +42,7 @@
             height: 100%;
             object-fit: cover;
             vertical-align: bottom;
+            object-position: top;
         }
     }
     &__blur {
